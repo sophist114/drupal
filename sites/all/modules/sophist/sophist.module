@@ -1,0 +1,16 @@
+<?php
+/**
+*Implement hook_menu().
+*/
+function sophist_menu() {
+	$items['sophist-page'] = array(
+		'page callback' => 'sophist_page',
+		'access arguments' => array('access content'),
+		'type' => MENU_CALLBACK
+	);
+	return $items;
+}
+
+function sophist_page() {
+	return "Hello, World";
+}

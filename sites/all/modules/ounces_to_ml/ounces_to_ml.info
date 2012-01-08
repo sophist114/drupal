@@ -1,0 +1,5 @@
+name = ounces_to_ml
+description = ounces_to_ml by Sophist
+package = Other
+core = 7.x
+files[] = ounces_to_ml.module
