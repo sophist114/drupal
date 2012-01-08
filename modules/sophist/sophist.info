@@ -1,0 +1,5 @@
+name = Sophist
+description = Module Development by Sophist
+package = Other
+core = 7.x
+files[] = sophist.module

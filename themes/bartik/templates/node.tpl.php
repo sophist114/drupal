@@ -102,6 +102,7 @@
       hide($content['links']);
       print render($content);
     ?>
+      <?php print 'added something at about me page'; ?>
   </div>
 
   <?php
